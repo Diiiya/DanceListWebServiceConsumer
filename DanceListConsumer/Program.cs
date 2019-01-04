@@ -45,15 +45,15 @@ namespace DanceListConsumer
         {
             foreach (var dance in dList)
             {
-                Console.WriteLine(dance.Name);
-                Console.WriteLine(dance.Description);
+                Console.WriteLine(dance.DName);
+                Console.WriteLine(dance.DDescription);
                 Console.WriteLine();
             }
         }
 
         static void ShowListObject(Dance dance)
         {
-            Console.WriteLine(dance.Name);
+            Console.WriteLine(dance.DName);
         }
 
         static async Task RunAsync()
